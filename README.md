@@ -9,13 +9,16 @@ PyDocHide is a plugin for Neovim that automatically hides Python docstrings in a
 - Folds docstrings away, making it easier to read and navigate the code
 - Can be run manually using the :PyDocHide command
 
-![](./example.png)
+![](./pydochide.jpg)
 
 ## Install
 
-If you use [pathogen](https://github.com/tpope/vim-pathogen) just clone to your bundle.  
+1. Install [Neovim](https://neovim.io/)
 
-If you use [vim-plug(https://github.com/junegunn/vim-plug) add the following to your .vimrc:
+2. Install Plugin
+If you use [pathogen](https://github.com/tpope/vim-pathogen) just clone to your bundle.  
+or  
+If you use [vim-plug](https://github.com/junegunn/vim-plug) add the following to your ~/.confg/nvim/init.vim file:
 `Plug 'camAtGitHub/pydochide.nvim'`
 Then restart NeoVim or run `:source $MYVIMRC` and run `:PlugInstall`.
 
@@ -37,8 +40,8 @@ Use the following vim commands to manipulate the folded docstrings.
 
 
 ### Credits
-This plugin is based on the [vim-pydocstring](https://github.com/yhat/vim-docstring) plugin by yhat.
-Thanks to OpenAI and the `o1-mini` model for writing the whole thing in lua from the original python code.
+- This plugin is based on the [vim-pydocstring](https://github.com/yhat/vim-docstring) plugin by yhat.  
+- Thanks to OpenAI and the `o1-mini` model for writing the whole thing in lua from the original python code.
 
 ### License
 MIT
